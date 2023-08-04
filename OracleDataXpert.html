@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Oracle Data Manager</title>
+</head>
+<body>
+    <h1>Oracle Data Manager</h1>
+    <form action="process.php" method="post">
+        <label for="dbHost">Database Host:</label>
+        <input type="text" id="dbHost" name="dbHost" required><br>
+
+        <label for="dbPort">Database Port:</label>
+        <input type="text" id="dbPort" name="dbPort" required><br>
+
+        <label for="dbName">Database Name:</label>
+        <input type="text" id="dbName" name="dbName" required><br>
+
+        <label for="dbSchema">Schema Name:</label>
+        <input type="text" id="dbSchema" name="dbSchema" required><br>
+
+        <label for="dbUser">Username:</label>
+        <input type="text" id="dbUser" name="dbUser" required><br>
+
+        <label for="dbPassword">Password:</label>
+        <input type="password" id="dbPassword" name="dbPassword" required><br>
+
+        <input type="submit" value="Connect and Manage Data">
+    </form>
+</body>
+</html>
